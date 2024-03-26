@@ -1,5 +1,12 @@
-### Hi there 👋
+### Hi, I'm  João Sousa 👋
 
+I'm a Software Engineer. My specialty is developing Android Mobile Apps with React Native.
+I also have knowledge with Web development and React.js
+
+- 🔭 I’m currently working on S2mangas.com & atequeelevenha.com
+- 🌱 I’m currently learning:
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"  width="50" height="50" />
 <!--
 **JohnnyBoySou/johnnyboysou** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
