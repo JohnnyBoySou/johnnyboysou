@@ -3,7 +3,7 @@
 I'm a Software Engineer. My specialty is developing Android Mobile Apps with React Native.
 I also have knowledge with Web development and React.js
 
-- 🔭 I’m currently working on S2mangas.com & atequeelevenha.com
+- 🔭 I’m currently working on S2mangas.com.
 - 🌱 I’m currently learning:
 <br/>
 <div display="inline">
