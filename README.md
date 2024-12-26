@@ -18,6 +18,7 @@ I also have knowledge with Web development and React.js
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"  width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/renpy/renpy-original.svg"  width="50" height="50" />
+  <img src="https://img.icons8.com/?size=512&id=20821&format=png"  width="50" height="50" />
 </div>
 <!--
 **JohnnyBoySou/johnnyboysou** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
