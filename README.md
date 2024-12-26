@@ -1,6 +1,6 @@
 ### Hi, I'm  João Sousa
 
-I'm a Software Engineer. My specialty is developing Android Mobile Apps with React Native.
+I'm a Software Engineer. My specialty is developing Android & IOS Mobile Apps with React Native.
 I also have knowledge with Web development and React.js
 
 - 🔭 I’m currently working on S2mangas.com.
