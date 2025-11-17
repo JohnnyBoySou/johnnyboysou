@@ -4,7 +4,6 @@
 
 I'm a passionate **Software Engineer** specializing in **Mobile App Development** with React Native for both Android & iOS platforms. I also have extensive experience in **Web Development** using React.js and modern web technologies.
 
-- 🔭 Currently working on **S2mangas.com** - bringing amazing manga experiences to users
 - 🌱 Always learning and exploring new technologies
 - 💡 Love solving complex problems and creating user-friendly applications
 - 🎯 Focused on delivering high-quality, scalable solutions
@@ -52,29 +51,8 @@ I'm a passionate **Software Engineer** specializing in **Mobile App Development*
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=JohnnyBoySou&theme=radical" alt="Contribution Graph" />
 </div>
-
-## 🌟 Featured Projects
-
-### S2mangas.com
-🚀 A comprehensive manga platform delivering exceptional reading experiences
-
-### Mobile Development
-📱 Specialized in creating cross-platform mobile applications with React Native
-
-## 📫 How to reach me
-- 💼 **LinkedIn**: Connect with me for professional opportunities
-- 🐦 **Twitter**: Follow for tech insights and updates
-- 📧 **Email**: Get in touch for collaborations
-- 🌐 **Portfolio**: Check out my work and projects
-
 ---
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=JohnnyBoySou&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
-</div>
-
-<div align="center">
-  
-### "Code is poetry, and every line tells a story" 💻✨
-  
 </div>
