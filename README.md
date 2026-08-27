@@ -9,33 +9,35 @@ actually build and the stack I build it with.
 
 ## What I work on
 
-**Voice — LAI Disk**
-Outbound dialer and conversational voice platform. Asterisk/ARI for call
-control and a Python real-time pipeline for the conversation itself: WebRTC
-VAD for turn detection, faster-whisper on CTranslate2 for streaming
-transcription, and an OpenAI-compatible endpoint driving the dialogue.
-Backend in Bun + Elysia over PostgreSQL, with BullMQ and Redis behind the
-queues.
+**Real-time voice**
+Outbound dialing and conversational voice. Asterisk/ARI for call control and a
+Python real-time pipeline for the conversation itself: WebRTC VAD for turn
+detection, faster-whisper on CTranslate2 for streaming transcription, and an
+OpenAI-compatible endpoint driving the dialogue. Backend in Bun + Elysia over
+PostgreSQL, with BullMQ and Redis behind the queues.
 
-**Messaging — LAI Connect**
-WhatsApp messaging at scale. Node backend on Prisma and PostgreSQL, LangGraph
-agents with Postgres-backed checkpointing for stateful conversations, S3 for
-media, rate limiting throughout. Shipped to users as a PWA.
+**Messaging at scale**
+High-volume WhatsApp messaging. Node backend on Prisma and PostgreSQL,
+LangGraph agents with Postgres-backed checkpointing for stateful
+conversations, S3 for media, rate limiting throughout. Shipped to users as a
+PWA.
 
-**Meetings — LAI MeetCore**
-Meeting capture and analysis. LiveKit for real-time media, with transcription,
-speaker diarization and expression analysis behind it, exposed over Socket.io
-and an MCP server. Bun + Elysia + Drizzle on the API, C++ and Python in the
-inference layer.
+**Meeting capture and analysis**
+LiveKit for real-time media, with transcription, speaker diarization and
+expression analysis behind it, exposed over Socket.io and an MCP server.
+Bun + Elysia + Drizzle on the API, C++ and Python in the inference layer.
 
-**Inference workers**
-Self-hosted GPU workers, one job each: transcription, diarization, VLM image
-understanding, diffusion, embeddings and fine-tuning. Go where the job is
+**Model serving and training**
+Self-hosted GPU workers, one job each: transcription, diarization with
+pyannote.audio, VLM image understanding, diffusion, embeddings via
+sentence-transformers, and fine-tuning — PyTorch and Transformers with PEFT
+for LoRA adapters, TRL for supervised fine-tuning, bitsandbytes for
+quantization and Accelerate for distributed runs. Go where the job is
 orchestration and queueing, Python where the job is the model. Traefik and a
 load balancer in front.
 
 **Platform**
-API gateway and key management, Stripe billing, status page, HubSpot
+API gateway and key management, Stripe billing, status page, CRM
 integrations, and OpenTelemetry tracing across services. Shared front-end and
 back-end templates so a new service starts in the right shape instead of
 drifting into its own.
@@ -64,7 +66,7 @@ Hyprland setup, alongside
 
 ## Stack
 
-**Languages** — TypeScript · Python · Go · Rust · Zig · Java · Kotlin
+**Languages** — TypeScript · Python · Go · Rust · Zig · Java · Kotlin · C++
 
 **Backend** — Bun · Elysia · Fastify · Express · FastAPI · Spring Boot
 
@@ -72,6 +74,14 @@ Hyprland setup, alongside
 
 **Frontend** — React 19 · TanStack Start · Next.js · Vue · React Native + Expo
 
-**AI** — faster-whisper · CTranslate2 · ONNX Runtime · LangGraph · LiveKit
+**ML** — PyTorch · Transformers · PEFT / LoRA · TRL · bitsandbytes ·
+Accelerate · Datasets · Hugging Face Hub
 
-**Infra** — Docker · Traefik · OpenTelemetry · S3 · Asterisk
+**Speech and vision** — faster-whisper · CTranslate2 · pyannote.audio ·
+sentence-transformers · ONNX Runtime · WebRTC VAD · diffusion · VLMs
+
+**Agents** — LangGraph · MCP · OpenAI-compatible endpoints
+
+**Real-time** — LiveKit · Asterisk / ARI · WebSockets · Socket.io
+
+**Infra** — Docker · Traefik · OpenTelemetry · S3 · GPU serving
