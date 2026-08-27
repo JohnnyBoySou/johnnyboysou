@@ -85,3 +85,7 @@ sentence-transformers · ONNX Runtime · WebRTC VAD · diffusion · VLMs
 **Real-time** — LiveKit · Asterisk / ARI · WebSockets · Socket.io
 
 **Infra** — Docker · Traefik · OpenTelemetry · S3 · GPU serving
+
+## Contact
+
+[joao.sousa@adila.co](mailto:joao.sousa@adila.co) · +55 47 8845-1732
