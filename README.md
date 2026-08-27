@@ -52,28 +52,6 @@ a database. Plus a codebase indexer on oxc-parser that gives LLM agents a
 deterministic map of a repository, and a design system published on the
 shadcn registry.
 
-## Open source
-
-[**wkix**](https://github.com/JohnnyBoySou/wkix) — the same indexing idea as
-walkmap, written in Zig. Generates `.wkix` maps so an LLM can navigate a
-repository without having to read all of it.
-
-[**kit_s2mangas**](https://github.com/JohnnyBoySou/kit_s2mangas) — design
-system and component library, published and consumed across the s2mangas
-stack: [API](https://github.com/JohnnyBoySou/db_s2mangas) ·
-[web](https://github.com/JohnnyBoySou/web_s2mangas) ·
-[dashboard](https://github.com/JohnnyBoySou/dash_s2mangas)
-
-**25stock** — inventory platform, end to end:
-[API](https://github.com/JohnnyBoySou/fastify_25stock) ·
-[AI service](https://github.com/JohnnyBoySou/ai_25stock) ·
-[mobile app](https://github.com/JohnnyBoySou/app_25stock)
-
-[**arch-config**](https://github.com/JohnnyBoySou/arch-config) — my Arch +
-Hyprland setup, alongside
-[ghostty-fish-config](https://github.com/JohnnyBoySou/ghostty-fish-config) and
-[zed-theme](https://github.com/JohnnyBoySou/zed-theme).
-
 ## Stack
 
 **Languages** — TypeScript · Python · Go · Rust · Zig · Java · Kotlin · C++
