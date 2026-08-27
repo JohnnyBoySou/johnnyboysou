@@ -42,48 +42,17 @@ integrations, and OpenTelemetry tracing across services. Shared front-end and
 back-end templates so a new service starts in the right shape instead of
 drifting into its own.
 
-## Adila
+**Developer tooling**
+The things a platform needs around it: analytics with feature flags and
+session replay, webhook delivery, job queues, workflow automation, an MCP
+server so the control plane answers to natural language, a CLI, and desktop
+clients built in Go over Wails — an editor on Monaco, a Git client, and a
+local-first HTTP client whose collections are git-versionable YAML instead of
+a database. Plus a codebase indexer on oxc-parser that gives LLM agents a
+deterministic map of a repository, and a design system published on the
+shadcn registry.
 
-[**adila.co**](https://adila.co) is my own platform — an internal developer
-platform I design and build end to end: identity, payments, mail, webhooks,
-monitoring, queues, workflows, content, analytics and a CLI, plus the desktop
-tooling around them. TypeScript and Go services, Go workers for the
-throughput-bound paths.
-
-[**Adila IDE**](https://github.com/adila-sh/coder-app) — code editor for
-fullstack work. Go core with a Monaco front end over Wails, managed LSPs,
-incremental indexing and no Electron overhead: 142ms cold start and sub-8ms
-p99 keystroke latency.
-
-[**stash**](https://github.com/adila-sh/stash-app) — minimal Git/GitHub
-desktop client, Wails v3 + Go + React. → [stash.adila.co](https://stash.adila.co)
-
-[**putch**](https://github.com/adila-sh/putch-app) — local-first HTTP client.
-Collections are git-versionable YAML instead of a database, so a workspace is
-just a repository. Pre/post request scripting sandboxed in goja.
-
-[**walkmap**](https://github.com/adila-sh/walkmap) — codebase indexer for LLM
-agents. Deterministic AST analysis on oxc-parser, no native binaries, runs on
-Node or Bun.
-
-[**@adila-sh/ui**](https://github.com/adila-sh/system-design) — design system
-on the shadcn registry, published to GitHub Packages with Fumadocs +
-TanStack Start docs. → [ds.adila.co](https://ds.adila.co)
-
-[**pulse-sdk**](https://github.com/adila-sh/pulse-sdk) — isomorphic SDK for
-analytics, feature flags, tracing and session replay. Zero runtime
-dependencies.
-
-[**dash-mcp**](https://github.com/adila-sh/dash-mcp) — MCP server that exposes
-the control plane to AI clients, so deploys and logs are reachable in natural
-language.
-
-[**ops-worker**](https://github.com/adila-sh/ops-worker) — Go port of the
-training worker. Gin handles the HTTP layer, SSE and job orchestration for a
-static binary and instant cold start; the ML core stays in Python subprocesses
-because it rides on PyTorch, Transformers, PEFT and TRL.
-
-## Other work
+## Open source
 
 [**wkix**](https://github.com/JohnnyBoySou/wkix) — the same indexing idea as
 walkmap, written in Zig. Generates `.wkix` maps so an LLM can navigate a
@@ -109,11 +78,12 @@ Hyprland setup, alongside
 
 **Languages** — TypeScript · Python · Go · Rust · Zig · Java · Kotlin · C++
 
-**Backend** — Bun · Elysia · Fastify · Express · FastAPI · Spring Boot
+**Backend** — Bun · Elysia · Fastify · Express · Gin · FastAPI · Spring Boot
 
 **Data** — PostgreSQL · Drizzle · Prisma · Redis · BullMQ
 
-**Frontend** — React 19 · TanStack Start · Next.js · Vue · React Native + Expo
+**Frontend** — React 19 · TanStack Start · Next.js · Vue · React Native + Expo ·
+shadcn/ui · Tailwind · Vite
 
 **ML** — PyTorch · Transformers · PEFT / LoRA · TRL · bitsandbytes ·
 Accelerate · Datasets · Hugging Face Hub
@@ -125,9 +95,10 @@ sentence-transformers · ONNX Runtime · WebRTC VAD · diffusion · VLMs
 
 **Real-time** — LiveKit · Asterisk / ARI · WebSockets · Socket.io
 
-**Desktop and tooling** — Wails · Monaco · oxc · goja · MCP
+**Desktop and tooling** — Wails · Monaco · oxc · goja · MCP · Fumadocs
 
-**Infra** — Docker · Traefik · OpenTelemetry · S3 · GPU serving · GitHub Actions
+**Infra** — Docker · Traefik · OpenTelemetry · S3 · GPU serving ·
+GitHub Actions · GitHub Packages
 
 ## Contact
 
