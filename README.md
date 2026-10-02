@@ -80,4 +80,4 @@ GitHub Actions · GitHub Packages
 
 ## Contact
 
-[joao.sousa@adila.co](mailto:joao.sousa@adila.co) · +55 47 98845-1732
+[dev.joaosousa@gmail.com](mailto:dev.joaosousa@gmail.com) · +55 49 9 9193-5657
